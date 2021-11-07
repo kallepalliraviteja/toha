@@ -1,0 +1,40 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Sr. Software Engineer
+# your company information
+company:
+  name: APGENCO.
+  url: "https://www.apgenco.gov.in"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a technically competent Senior Software Engineer with 8+ years Development experience in helping clients transforming their operations into IT applications which scales cost effectively.I am well experienced in leading technical teams and designing applications on cloud or on premise infrastructure with focus on data/application security along with high availability
+I can configure or implement end to end automation using CI, CD pipeline models on Azure.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/kallepalliraviteja"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Leadership
+  percentage: 85
+  color: blue
+- name: Team Work
+  percentage: 90
+  color: yellow
